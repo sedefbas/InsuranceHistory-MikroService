@@ -1,7 +1,6 @@
 package com.example.sigorta_gecmisi_servisi.service;
 
-import com.example.sigorta_gecmisi_servisi.dto.request.InsuranceHistoryRequest;
-import com.example.sigorta_gecmisi_servisi.dto.response.InsuranceHistoryResponse;
+import com.example.sigorta_gecmisi_servisi.model.dto.request.InsuranceHistoryRequest;
 import com.example.sigorta_gecmisi_servisi.model.InsuranceHistory;
 
 import java.util.List;

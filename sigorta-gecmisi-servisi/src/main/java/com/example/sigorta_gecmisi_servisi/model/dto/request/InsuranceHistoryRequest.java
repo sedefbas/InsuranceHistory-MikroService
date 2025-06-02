@@ -1,4 +1,4 @@
-package com.example.sigorta_gecmisi_servisi.dto.request;
+package com.example.sigorta_gecmisi_servisi.model.dto.request;
 
 import lombok.Data;
 

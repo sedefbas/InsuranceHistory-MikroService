@@ -1,7 +1,7 @@
 package com.example.sigorta_gecmisi_servisi.model;
 
 
-import com.example.sigorta_gecmisi_servisi.dto.response.InsuranceClaimResponse;
+import com.example.sigorta_gecmisi_servisi.model.dto.response.InsuranceClaimResponse;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

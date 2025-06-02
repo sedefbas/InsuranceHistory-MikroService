@@ -7,9 +7,8 @@ import org.mapstruct.factory.Mappers;
 
 
 
-@Mapper
+
+@Mapper(componentModel = "spring")
 public interface InsuranceHistoryToEntityMapper extends BaseMapper<InsuranceHistory, InsuranceHistoryEntity> {
-    static InsuranceHistoryToEntityMapper initialize(){
-        return Mappers.getMapper(InsuranceHistoryToEntityMapper.class);
-    }
+
 }

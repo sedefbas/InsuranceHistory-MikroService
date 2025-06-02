@@ -2,13 +2,11 @@ package com.example.sigorta_gecmisi_servisi.model.entity;
 
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDateTime;
 
+@Data
 @Entity
 @Table(name = "insurance_histories")
 @Getter
@@ -27,5 +25,12 @@ public class InsuranceHistoryEntity {
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
 
 }
